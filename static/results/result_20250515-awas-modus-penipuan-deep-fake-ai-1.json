@@ -1,0 +1,9 @@
+{
+  "type": "image",
+  "file_path": "uploads/20250515-awas-modus-penipuan-deep-fake-ai-1.jpg",
+  "is_deepfake": false,
+  "confidence": 0.4999999701976776,
+  "real_probability": 0.5000000298023224,
+  "fake_probability": 0.4999999701976776,
+  "threshold": 0.5
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Detection AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-shield-alt me-2"></i>
+                    Deepfake Detection AI
+                </a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h1 class="display-4 mb-3">AI-Powered Deepfake Detection</h1>
+                    <p class="lead">Upload images or videos to detect manipulated content using advanced deep learning algorithms</p>
+                </div>
+            </div>
+
+            <!-- Upload Section -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-lg">
+                        <div class="card-header bg-primary text-white">
+                            <h4 class="mb-0"><i class="fas fa-upload me-2"></i>Upload Media</h4>
+                        </div>
+                        <div class="card-body">
+                            <form id="uploadForm" enctype="multipart/form-data">
+                                <div class="mb-4">
+                                    <div class="upload-area" id="uploadArea">
+                                        <i class="fas fa-cloud-upload-alt fa-3x text-muted mb-3"></i>
+                                        <h5>Drag & Drop or Click to Upload</h5>
+                                        <p class="text-muted">Supported formats: MP4, AVI, MOV, MKV, WebM, JPG, PNG</p>
+                                        <input type="file" id="fileInput" name="file" accept=".mp4,.avi,.mov,.mkv,.webm,.jpg,.jpeg,.png" class="d-none">
+                                    </div>
+                                </div>
+                                
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg" id="analyzeBtn" disabled>
+                                        <i class="fas fa-search me-2"></i>Analyze for Deepfakes
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="row justify-content-center mt-5" id="resultsSection" style="display: none;">
+                <div class="col-lg-10">
+                    <div class="card shadow-lg">
+                        <div class="card-header">
+                            <h4 class="mb-0"><i class="fas fa-chart-line me-2"></i>Analysis Results</h4>
+                        </div>
+                        <div class="card-body" id="resultsBody">
+                            <!-- Results will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading Section -->
+            <div class="row justify-content-center mt-5" id="loadingSection" style="display: none;">
+                <div class="col-lg-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="spinner-border text-primary mb-3" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <h5>Analyzing Media...</h5>
+                            <p class="text-muted">This may take a few moments depending on file size</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="row mt-5">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-brain fa-3x text-primary mb-3"></i>
+                            <h5>Deep Learning</h5>
+                            <p class="text-muted">Uses state-of-the-art CNN models with transfer learning for accurate detection</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-video fa-3x text-primary mb-3"></i>
+                            <h5>Video Analysis</h5>
+                            <p class="text-muted">Analyzes multiple frames to detect temporal inconsistencies in videos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
+                            <h5>Image Forensics</h5>
+                            <p class="text-muted">Examines pixel-level artifacts and inconsistencies in images</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
+

@@ -1,0 +1,261 @@
+{
+  "type": "video",
+  "file_path": "uploads/Fake_Obama_created_using_AI_video_tool_BBC_News.mp4",
+  "is_deepfake": true,
+  "confidence": 0.5016748485878614,
+  "ai_confidence": 0.5057414650917054,
+  "artifact_confidence": 0.4854083825724855,
+  "ai_confidence_std": 0.0013436281154234036,
+  "artifact_confidence_std": 0.025712932211418137,
+  "real_probability": 0.4983251514121386,
+  "fake_probability": 0.5016748485878614,
+  "threshold": 0.5,
+  "video_info": {
+    "total_frames": 177,
+    "processed_frames": 30,
+    "fps": 24.97106768508415,
+    "duration_seconds": 7.088203125000001
+  },
+  "frame_analysis": [
+    {
+      "frame_number": 0,
+      "timestamp": 0.0,
+      "confidence": 0.48959754230854224,
+      "ai_confidence": 0.5034267902374268,
+      "artifact_confidence": 0.4342805505930042,
+      "is_deepfake": false
+    },
+    {
+      "frame_number": 6,
+      "timestamp": 0.2402780720338983,
+      "confidence": 0.5037175664417545,
+      "ai_confidence": 0.506361722946167,
+      "artifact_confidence": 0.49314094042410417,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 12,
+      "timestamp": 0.4805561440677966,
+      "confidence": 0.5017969708141157,
+      "ai_confidence": 0.5064640641212463,
+      "artifact_confidence": 0.4831285975855926,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 18,
+      "timestamp": 0.720834216101695,
+      "confidence": 0.5038844423706439,
+      "ai_confidence": 0.5064731240272522,
+      "artifact_confidence": 0.49352971574421045,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 24,
+      "timestamp": 0.9611122881355932,
+      "confidence": 0.5050516933101946,
+      "ai_confidence": 0.5064889192581177,
+      "artifact_confidence": 0.49930278951850215,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 30,
+      "timestamp": 1.2013903601694915,
+      "confidence": 0.504607788293497,
+      "ai_confidence": 0.5064728260040283,
+      "artifact_confidence": 0.4971476374513713,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 36,
+      "timestamp": 1.44166843220339,
+      "confidence": 0.505359192281785,
+      "ai_confidence": 0.5064816474914551,
+      "artifact_confidence": 0.500869371443105,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 42,
+      "timestamp": 1.681946504237288,
+      "confidence": 0.5053552000413115,
+      "ai_confidence": 0.5064582824707031,
+      "artifact_confidence": 0.5009428703237447,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 48,
+      "timestamp": 1.9222245762711865,
+      "confidence": 0.5055474241884004,
+      "ai_confidence": 0.5064705610275269,
+      "artifact_confidence": 0.501854876831894,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 54,
+      "timestamp": 2.1625026483050847,
+      "confidence": 0.5055015272684226,
+      "ai_confidence": 0.5064785480499268,
+      "artifact_confidence": 0.5015934441424059,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 60,
+      "timestamp": 2.402780720338983,
+      "confidence": 0.5055997735081524,
+      "ai_confidence": 0.5064661502838135,
+      "artifact_confidence": 0.502134266405508,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 66,
+      "timestamp": 2.6430587923728814,
+      "confidence": 0.5056081122336957,
+      "ai_confidence": 0.5064788460731506,
+      "artifact_confidence": 0.5021251768758759,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 72,
+      "timestamp": 2.88333686440678,
+      "confidence": 0.5048648661581541,
+      "ai_confidence": 0.5064554214477539,
+      "artifact_confidence": 0.4985026449997547,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 78,
+      "timestamp": 3.1236149364406782,
+      "confidence": 0.5054378331864573,
+      "ai_confidence": 0.5064617395401001,
+      "artifact_confidence": 0.5013422077718861,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 84,
+      "timestamp": 3.363893008474576,
+      "confidence": 0.5052340650299616,
+      "ai_confidence": 0.5064787864685059,
+      "artifact_confidence": 0.5002551792757843,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 91,
+      "timestamp": 3.6442174258474576,
+      "confidence": 0.504561628351222,
+      "ai_confidence": 0.5064983367919922,
+      "artifact_confidence": 0.49681479458814115,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 97,
+      "timestamp": 3.884495497881356,
+      "confidence": 0.5050251989406174,
+      "ai_confidence": 0.5064850449562073,
+      "artifact_confidence": 0.49918581487825764,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 103,
+      "timestamp": 4.124773569915255,
+      "confidence": 0.5049492053579548,
+      "ai_confidence": 0.5064694285392761,
+      "artifact_confidence": 0.49886831263266973,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 109,
+      "timestamp": 4.365051641949153,
+      "confidence": 0.5048932919449448,
+      "ai_confidence": 0.5064634680747986,
+      "artifact_confidence": 0.49861258742552933,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 115,
+      "timestamp": 4.605329713983051,
+      "confidence": 0.504734463268721,
+      "ai_confidence": 0.5064751505851746,
+      "artifact_confidence": 0.4977717140029063,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 121,
+      "timestamp": 4.8456077860169495,
+      "confidence": 0.5043960926333008,
+      "ai_confidence": 0.5064985156059265,
+      "artifact_confidence": 0.4959864007427978,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 127,
+      "timestamp": 5.0858858580508475,
+      "confidence": 0.5051063356288338,
+      "ai_confidence": 0.5064702033996582,
+      "artifact_confidence": 0.49965086454553587,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 133,
+      "timestamp": 5.326163930084746,
+      "confidence": 0.5051704160376298,
+      "ai_confidence": 0.5064981579780579,
+      "artifact_confidence": 0.49985944827591733,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 139,
+      "timestamp": 5.566442002118644,
+      "confidence": 0.5033481131357131,
+      "ai_confidence": 0.5064785480499268,
+      "artifact_confidence": 0.4908263734788586,
+      "is_deepfake": true
+    },
+    {
+      "frame_number": 145,
+      "timestamp": 5.806720074152542,
+      "confidence": 0.4902092434276553,
+      "ai_confidence": 0.5036429166793823,
+      "artifact_confidence": 0.43647455042074695,
+      "is_deepfake": false
+    },
+    {
+      "frame_number": 151,
+      "timestamp": 6.046998146186441,
+      "confidence": 0.4900206834177601,
+      "ai_confidence": 0.5038662552833557,
+      "artifact_confidence": 0.4346383959553775,
+      "is_deepfake": false
+    },
+    {
+      "frame_number": 157,
+      "timestamp": 6.287276218220339,
+      "confidence": 0.489893747972149,
+      "ai_confidence": 0.503514289855957,
+      "artifact_confidence": 0.43541158043691686,
+      "is_deepfake": false
+    },
+    {
+      "frame_number": 163,
+      "timestamp": 6.527554290254238,
+      "confidence": 0.4895345037644794,
+      "ai_confidence": 0.5034174919128418,
+      "artifact_confidence": 0.4340025511710296,
+      "is_deepfake": false
+    },
+    {
+      "frame_number": 169,
+      "timestamp": 6.767832362288136,
+      "confidence": 0.48919918798160644,
+      "ai_confidence": 0.5033508539199829,
+      "artifact_confidence": 0.4325925242281003,
+      "is_deepfake": false
+    },
+    {
+      "frame_number": 176,
+      "timestamp": 7.048156779661017,
+      "confidence": 0.5020393483381651,
+      "ai_confidence": 0.5021978616714478,
+      "artifact_confidence": 0.5014052950050342,
+      "is_deepfake": true
+    }
+  ]
+}

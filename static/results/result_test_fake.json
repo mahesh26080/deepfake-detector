@@ -1,0 +1,20 @@
+{
+  "type": "image",
+  "file_path": "uploads/test_fake.jpg",
+  "is_deepfake": true,
+  "confidence": 0.5105985081655575,
+  "ai_confidence": 0.5067979693412781,
+  "artifact_confidence": 0.5258006634626752,
+  "real_probability": 0.4894014918344425,
+  "fake_probability": 0.5105985081655575,
+  "threshold": 0.5,
+  "artifacts": {
+    "edge_density": 0.3737842793367347,
+    "high_freq_score": 8.994717920446416,
+    "color_variance": 28824.502333440196,
+    "lbp_entropy": 2.950149333060231,
+    "jpeg_artifacts": 0.0,
+    "noise_level": 1.0,
+    "artifact_score": 0.5258006634626752
+  }
+}
